@@ -1,0 +1,33 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.color{
+    color: orangered;
+}
+section{
+    display: flex;
+    padding-left: 20px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.second{
+    padding-top: 50px;
+}
+.width-half{
+    width: 50%;
+}
+.width-half a{
+    text-decoration:none ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-image:linear-gradient(yellow,orangered);
+}
+.width-half img{
+    width: 60%;
+    height: 400px;
+    border-radius: 50%;
+    padding-left: 60px;
+}
